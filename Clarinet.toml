@@ -1,0 +1,29 @@
+[project]
+name = 'Xenolinguistics-Platform'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.telescope-integration]
+path = 'contracts/telescope-integration.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.xenolinguistic-protocol]
+path = 'contracts/xenolinguistic-protocol.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.xenotoken]
+path = 'contracts/xenotoken.clar'
+clarity_version = 2
+epoch = 2.5
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
