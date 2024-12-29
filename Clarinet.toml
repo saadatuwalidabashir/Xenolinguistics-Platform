@@ -14,6 +14,11 @@ epoch = 2.5
 path = 'contracts/xenolinguistic-protocol.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.xenotoken]
+path = 'contracts/xenotoken.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
