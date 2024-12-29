@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.telescope-integration]
+path = 'contracts/telescope-integration.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.xenolinguistic-protocol]
 path = 'contracts/xenolinguistic-protocol.clar'
 clarity_version = 2
